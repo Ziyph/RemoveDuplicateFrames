@@ -25,7 +25,7 @@ class RemoveDuplicateFrames(tk.Frame):
 
         def remove_duplicate_frames():
             def ffmpeg():
-                ffmpeg = Popen(
+                Popen(
                     [
                         f"{self.parent_directory}/ffmpeg",
                         "-v",
@@ -53,7 +53,6 @@ class RemoveDuplicateFrames(tk.Frame):
                         ).stdout.split("\n", 1)[0],
                         "-vf",
                         "mpdecimate,setpts=N/FRAME_RATE/TB",
-                        "-an",
                         f"{Path(self.selected_file).parent.absolute()}/{Path(self.selected_file).stem}_processed.mov",
                     ],
                     stdout=PIPE,
