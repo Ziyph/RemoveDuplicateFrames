@@ -25,7 +25,7 @@ class RemoveDuplicateFrames(tk.Frame):
 
         def remove_duplicate_frames():
             def ffmpeg():
-                Popen(
+                ffmpeg = Popen(
                     [
                         f"{self.parent_directory}/ffmpeg",
                         "-v",
