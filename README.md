@@ -1,5 +1,5 @@
 # Remove Duplicate Frames
-This app removes duplicate frames from an input video. It is written in [Python](//python.org), [`tkinter`](//docs.python.org/library/tkinter.html) is used for the graphical user interface, and it removes duplicate frames from input video with [FFmpeg](//ffmpeg.org).
+This app removes duplicate frames from an input video. It is written in [Python](//python.org), its graphical user interface is made with [`tkinter`](//docs.python.org/library/tkinter.html), and it removes duplicate frames from input video with [FFmpeg](//ffmpeg.org).
 
 ![This app](image.png)
 ## Dependencies
