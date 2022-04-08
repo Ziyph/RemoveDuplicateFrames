@@ -3,6 +3,6 @@ This app removes duplicate frames from an input video. It is written in [Python]
 
 ![This app](image.png)
 ## Dependencies
-You must put [FFmpeg and FFprobe binaries](//ffmpeg.org/download.html) in the app's directory. The FFmpeg binary must be named `ffmpeg` and the FFprobe binary must be named `ffprobe`. 
+You must put [FFmpeg binaries](//ffmpeg.org/download.html) in the app's directory. The FFmpeg binary must be named `ffmpeg`. 
 
 ![The app in a directory with its dependencies](image2.png)
